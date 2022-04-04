@@ -12,7 +12,7 @@ isos = 0
 
 ending = "/Users/YOURUSERNAME/YOURFILEPATH/YOURFILEPATH"
 
-starting = "/Users/ryankaelle/Desktop/iso files"
+starting = "/Users/YOURUSERNAME/YOURFILEPATH/YOURFILEPATH"
 
 for base, dirs, files in os.walk(starting):
     print('Searching in : ', base)
@@ -52,12 +52,10 @@ def checkiftrue():
           break
       elif yon == "no":
         print()
-        print("dang it would have been a fast transfer")
+        print("dang it would have been a fast transfer!!\n")
         break
       else:
           print("Invalid input-Try Again!\n")
-
-    #print("reached the other side")
 
 checkiftrue()
         
